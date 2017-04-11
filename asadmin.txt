@@ -1,0 +1,2 @@
+create-jdbc-connection-pool --restype javax.sql.DataSource --datasourceclassname oracle.jdbc.pool.OracleDataSource --property "user=playground:password=playground: url=jdbc\\:oracle\\:thin\\:@//localhost\\:1521/XE" PlaygroundPool
+asadmin create-jdbc-resource --connectionpoolid PlaygroundPool jdbc/playground
